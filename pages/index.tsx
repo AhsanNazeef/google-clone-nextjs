@@ -1,5 +1,6 @@
 import Avatar from "../components/Avatar";
 import Meta from '../components/Meta';
+import Footer from '../components/Footer';
 import { ViewGridIcon } from '@heroicons/react/solid';
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
           <Avatar url="/avatar.png" />
         </div>
       </header>
+
+      <Footer />
     </div>
   );
 }
