@@ -9,7 +9,7 @@ function Pagination({ count }) {
   } = router;
   const startIndex = Number(start) || 0;
 
-  if (count !== 10) {
+  if (count <= 10) {
     return <span />;
   }
 
